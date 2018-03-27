@@ -90,7 +90,7 @@ linters:
     filename_extension: false
 
   Indentation:
-    enabled: true
+    enabled: false
     allow_non_nested_indentation: false
     character: space # or 'tab'
     width: 2
@@ -151,7 +151,7 @@ linters:
     properties: {}
 
   PseudoElement:
-    enabled: true
+    enabled: false
 
   QualifyingElement:
     enabled: true
@@ -161,7 +161,7 @@ linters:
 
   SelectorDepth:
     enabled: true
-    max_depth: 4
+    max_depth: 6
 
   SelectorFormat:
     enabled: true
@@ -202,7 +202,7 @@ linters:
     enabled: true
 
   SpaceAroundOperator:
-    enabled: true
+    enabled: false
     style: no_space # or 'at_least_one_space', or 'no_space'
 
   SpaceBeforeBrace:
