@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+@include column(${1:1/3});
+]]></content>
+    <tabTrigger>jeet</tabTrigger>
+    <description>Add a jeet column</description>
+    <scope>source.scss</scope>
+</snippet>

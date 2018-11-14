@@ -1,0 +1,5 @@
+{
+  "formatOnSave": false,
+  "syntaxes": ["SCSS"],
+  "extensions": [".scss"]
+}

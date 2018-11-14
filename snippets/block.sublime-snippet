@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<div class="block">
+  <div class="container">
+    ${1:test}
+  </div>
+</div>
+]]></content>
+  <tabTrigger>block</tabTrigger>
+  <description>Add a HTML block</description>
+</snippet>

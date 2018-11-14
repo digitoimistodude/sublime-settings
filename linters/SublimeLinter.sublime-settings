@@ -41,6 +41,14 @@
         "ignore": "",
         "warnings": ""
       },
+      "htmltidy":
+      {
+        "disable": true,
+        "uppercase-tags": false,
+        "args": [],
+        "excludes": [],
+        "ignore_match": []
+      },
       "sass":
       {
         "disable": true
@@ -78,23 +86,12 @@
         "executable": "/usr/local/bin/ruby",
         "cmd": "/usr/local/bin/ruby",
         "disable": false,
-        "env": {"PATH":"/usr/local/bin/"},
-        "paths":
-        {
-          "linux":
-          [
-            "/usr/local/bin/"
-          ],
-          "osx":
-          [
-            "/usr/local/bin/"
-          ],
-          "windows":
-          [
-            "/usr/local/bin/"
-          ]
-        }        
-      },      
+        "env": {"PATH":"/usr/local/bin/"}      
+      },
+      "stylelint":
+      {
+        "disable": true,  
+      },
       "sublimesyntax":
       {
         "disable": false,

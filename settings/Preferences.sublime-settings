@@ -1,0 +1,53 @@
+{
+	"auto_complete": true,
+	"bold_folder_labels": true,
+	"caret_extra_width": 2,
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/User/Custom-Monokai-Spacegray.tmTheme",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		"wp",
+		"vendor",
+		"content/plugins",
+		"content/mu-plugins"
+	],
+	"font_face": "Hack",
+	"font_size": 14,
+	"highlight_line": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"on_post_save":
+	[
+		{
+			"command": "clean_css"
+		}
+	],
+	"original_color_scheme": "Packages/User/Color Highlighter/themes/Custom-Monokai-Spacegray.tmTheme",
+	"overlay_scroll_bars": "false",
+	"scroll_speed": 0.0,
+	"shell_timeout": 30,
+	"show_full_path": true,
+	"soda_classic_tabs": false,
+	"soda_folder_icons": false,
+	"spacegray_fileicons": true,
+	"spacegray_sidebar_font_normal": true,
+	"spacegray_tabs_font_small": true,
+	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_separators": "./\\()\"':,.;<>~!@#%^&*|+=[]{}`~?"
+}
