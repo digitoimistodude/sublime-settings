@@ -3,7 +3,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/Custom-Monokai-Spacegray.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended Bright (SL)-custom.tmTheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -36,7 +36,7 @@
 			"command": "clean_css"
 		}
 	],
-	"original_color_scheme": "Packages/User/Color Highlighter/themes/Custom-Monokai-Spacegray.tmTheme",
+	"original_color_scheme": "Packages/User/Custom-Monokai-Spacegray.tmTheme",
 	"overlay_scroll_bars": "false",
 	"scroll_speed": 0.0,
 	"shell_timeout": 30,
