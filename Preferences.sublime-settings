@@ -3,7 +3,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/Afterglow-Spacegray.tmTheme",
+	"color_scheme": "Packages/User/Color Highlighter/themes/Custom-Monokai-Spacegray.tmTheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
