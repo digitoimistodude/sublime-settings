@@ -68,7 +68,7 @@ Press **Cmd + Shift + P**, type **Package Control: Install Package** (or just "i
 
 **Why we use it:** FileHeader makes it easier to create new file with initial contents. It also can add new header to an existed file or directory. This ensures every developer knows who and when file has been edited, doesn't have to check out git commits all the time.
 
-**Setting up:** Copy file `FileHeader.sublime-settings` (comes with all the settings with this repo) to your `Packages/User/`, edit your mac username in place to that file, then copy `fileheaderes` folder to your `Packages/User/` directory.
+**Setting up:** Copy file `FileHeader.sublime-settings` (comes with all the settings with this repo) to your `Packages/User/`, edit your mac username in place to that file, then copy all the templates in `fileheaders` folder to your `Packages/FileHeader/template/` directory, backup and override existing.
 
 ### [Generic Config](https://github.com/skozlovf/Sublime-GenericConfig)
 
