@@ -1,5 +1,5 @@
 {
-  "enable_add_template_on_save": true,
+  "enable_add_template_on_save": false,
   "enable_add_template_to_empty_file": true,
   "Default": {
     "company": "Digitoimisto Dude Oy (https://www.dude.fi)",
