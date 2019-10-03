@@ -4,17 +4,39 @@
 	"caret_extra_width": 2,
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended Bright (SL)-custom.tmTheme",
+	"binary_file_patterns":
+	[
+		"*-bundle.js"
+	],
+	"file_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".env",
+		".DS_Store",
+		".git*",
+		"*.lock",
+		"lib",
+		"db.php",
+		"object-cache.php",
+		"advanced-cache.php",
+	],			
 	"folder_exclude_patterns":
 	[
 		".svn",
 		".git",
-		".hg",
-		"CVS",
-		"node_modules",
+		".githooks",
+		"bin",
+		"config",
 		"wp",
 		"vendor",
-		"content/plugins",
-		"content/mu-plugins"
+		"lib",
+		"scripts",
+		"node_modules",
+		"uploads",
+		"media",
+		"languages",
+		"upgrade",
 	],
 	"font_face": "Hack",
 	"font_size": 14,
