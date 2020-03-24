@@ -49,7 +49,7 @@
       {
         "disable": false,
         "standard": "${folder}/content/themes/${project_base_name}/phpcs.xml",
-        "executable": "/Users/rolle/Projects/phpcs/scripts/phpcs",
+        "executable": "/Users/rolle/Projects/phpcs/bin/phpcs",
         "args": ["--standard=${folder}/content/themes/${project_base_name}/phpcs.xml"],
         "excludes":
         [
@@ -58,13 +58,11 @@
         {
           "linux":
           [
-            "/Users/rolle/Projects/phpcs/scripts/",
             "/Users/rolle/Projects/phpcs/bin/",
             "/usr/local/bin/"
           ],
           "osx":
           [
-            "/Users/rolle/Projects/phpcs/scripts/",
             "/Users/rolle/Projects/phpcs/bin/",
             "/usr/local/bin/"
           ],
@@ -94,7 +92,7 @@
             "/usr/local/bin/"
           ]
         }        
-      },      
+      },   
       "sublimesyntax":
       {
         "disable": false,
