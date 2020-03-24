@@ -110,7 +110,19 @@ To start a new project, open folder with Sublime Text or `subl -n ~/Projects/pro
 
 ### [Stylefmt](https://github.com/dmnsgn/sublime-stylefmt)
 
-**Why we use it:** Stylefmt is a tool that automatically formats CSS according to stylelint rules. Although, this is currently overridden by our gulpfile.js that runs stylefmt automatically on save, see [devpackages/gulpfile.js](https://github.com/digitoimistodude/devpackages/blob/master/gulpfile.js#L21).
+**Why we use it:** Stylefmt is a tool that automatically formats CSS according to stylelint rules. If you want it to run via gulp automatically on save, see [devpackages/gulpfile.js](https://github.com/digitoimistodude/devpackages/blob/master/gulpfile.js#L21).
+
+If you want it to run automatically via editor, add these to your Stylefmt user settings:
+
+```
+{
+  "formatOnSave": true,
+  "syntaxes": ["SCSS"],
+  "extensions": [".scss"]
+}
+```
+
+Please note the bug in [formatSassVariables.js](https://github.com/morishitter/stylefmt/issues/331#issuecomment-595249134).
 
 ### [SublimeCodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel)
 
